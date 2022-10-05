@@ -5,6 +5,7 @@
   "main": "app.js",
   "author": "SAM CLI",
   "dependencies": {
+    "@aws-sdk/client-translate": "^3.183.0",
     "esbuild": "^0.14.14"
   },
   "scripts": {
