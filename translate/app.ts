@@ -31,7 +31,7 @@ export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGat
         };
     }
 
-    const client = new TranslateClient({ region: process.env.AWS_REGION });
+    const client = new TranslateClient({});
     const command = new TranslateTextCommand({
         Text: text,
         SourceLanguageCode: 'en',
