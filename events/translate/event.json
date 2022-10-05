@@ -1,0 +1,7 @@
+{
+  "body": "{\"text\": \"Good morning\"}",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
